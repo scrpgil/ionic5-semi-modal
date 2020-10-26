@@ -1,0 +1,23 @@
+ion-content {
+  --opacity: 0;
+  --background: transparent !important;
+}
+.dismiss-wrapper {
+  height: 100%;
+}
+ion-footer {
+  background-color: #999;
+  border-radius: 24px 24px 0px 0px;
+  .semi-modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    .counter {
+      font-size: 60px;
+    }
+    button {
+      margin: 0px 12px;
+    }
+  }
+}
